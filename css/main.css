@@ -5,13 +5,17 @@
 }
 
 * {
-  font-family: 'Prata', serif;
   margin: 0; 
   padding: 0;
 }
 
-body {
-	width: 100%;
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Prata', serif;
+  width: 100%;
   min-height: 100vh;
 	box-sizing: border-box;
 }

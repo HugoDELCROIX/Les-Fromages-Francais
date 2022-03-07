@@ -1,0 +1,28 @@
+.card {
+  width: 70%;
+  height: auto;
+  background-color: red;
+  margin: 0 auto 0;
+  border-radius: 10px;
+}
+
+.card-container {
+  border: solid;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: red;
+  gap: 20px;
+  display: flex;
+}
+
+.card-container img {
+  border-radius: 10px;
+  width: 200px;
+  height: 100%;
+}
+
+.card-footer{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: red;
+}

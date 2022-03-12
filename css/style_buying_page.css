@@ -48,7 +48,10 @@ label{
     border: #fff solid 5px;
     outline: 2px solid rgb(255, 229, 82);
     cursor: pointer;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
     height: fit-content;
     transition: transform 100ms ease-in;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -59,10 +62,6 @@ label img{
     width: 150px;
     object-fit: cover;
     height: 150px;
-}
-
-label p{
-    text-align: center;
 }
 
 :checked + label{

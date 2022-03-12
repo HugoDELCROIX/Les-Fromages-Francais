@@ -34,11 +34,10 @@
 }
 
 .card-container img {
-  object-fit: center;
-  object-position: center;
+  object-fit: cover;
   border-radius: 10px;
-  width: 200px;
-  height: 100%;
+  width: 150px;
+  height: 150px;
 }
 
 .card-description{

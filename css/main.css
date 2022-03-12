@@ -29,7 +29,6 @@ body{
 }
 
 header > nav {
-	position: sticky;
 	width: 100%;
 	height: 100px;
 	background-color: #F8F7FF;
@@ -46,7 +45,7 @@ header > nav > ul, footer > nav > ul {
 	flex-direction: row;
 	list-style: none;
 	height: 100%;
-	width: 25%;
+	width: 60%;
 	font-size: 1.5em;
 }
 

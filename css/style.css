@@ -1,0 +1,12 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Prata&display=swap');
+
+body{
+  font-family: 'Prata', serif;
+}
+
+.fromagerie {
+	background-image: url("../images/fromagerie.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

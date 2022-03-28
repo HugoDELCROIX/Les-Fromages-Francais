@@ -9,9 +9,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="camembert.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/bootstrap.min.js"></script>
+
     <title>French cheese :: Home</title>
   </head>
-
-  <body>
+  <body class="container-fluid vh-100 w-100 p-0">
+    <header class="row w-100 header-height m-0 p-0">
+      <nav class="col-12 h-100 navbar navbar-expand-lg navbar-light bg-light p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="presentation" class="row align-items-center w-100 m-0 p-0 index-presentation-height">
+      <div class="col-12 h-100 index-bg-image text-white text-center d-flex align-items-center justify-content-center">
+        <div>
+          <h1>Les Fromages français</h1>
+          <hr class="w-50 mx-auto">
+          <h2>Excellence embodied in cheese</h2>
+          <button type="button" class="btn btn-light btn-lg my-5">See more</button>
+        </div>
+      </div>
+    </section>
+    <section id="panel" class="row h-75 w-100 m-0 p-0">
+      <h1 class="text-center m-0 fs-3 fw-bold my-4">A great panel of traditional cheeses</h1>
+      <div class="col-12 w-50 mx-auto">
+        <div id="carouselExampleCaptions" class="carousel slide shadow-sm p-3 mb-5 bg-body rounded" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/first.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item rounded">
+              <img src="images/second.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/third.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="row h-25 w-100 p-0 m-0">
+      <div class="col-12 d-flex flex-column justify-content-center">
+        <img src="images/calligraphy.png" alt="" class="w-25 m-auto center">
+    
+        <nav class="navbar-expand navbar-light">
+          <div id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto center justify-content-center">
+              <li class="nav-item center">
+                <a class="nav-link active" aria-current="page" href="#"><h4>About us</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h4>Contact us</h4></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

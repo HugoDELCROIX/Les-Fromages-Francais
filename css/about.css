@@ -1,55 +1,12 @@
-main {
-	width: 100%;
-}
+@import url('https://api.fonts.coollabs.io/css2?family=Prata&display=swap');
 
-main > div {
-	height: 300px;
+.fromagerie {
 	background-image: url("../images/fromagerie.jpg");
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
-	background-position: center -400px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
-h1, h3, hr {
-	color: aliceblue;
-	width: fit-content;
-}
-
-h1 {
-	font-size: 4em;
-	font-weight: 100;
-}
-
-h3 {
-	margin-top: 20px;
-	font-weight: 100;
-}
-
-hr {
-	width: 30%;
-}
-
-p {
-	width: 50%;
-	margin: auto;
-	margin-top: 30px;
-}
-
-article {
-	width: 50%;
-	margin: auto;
-	margin-top: 20px;
-}
-
-article > p {
-	width: 100%;
-}
-
-.brand {
-	font-style: italic;
-	font-weight: bold;
+body {
+  font-family: 'Prata', serif;
 }

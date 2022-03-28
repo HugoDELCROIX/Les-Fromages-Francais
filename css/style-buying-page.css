@@ -1,0 +1,11 @@
+
+.row-2 > .btn{
+    background-color: #fff;
+    border: solid 5px rgb(255, 229, 82);
+}
+
+.row-2 > .btn:hover{
+    border: solid #fff 5px;
+    outline: 2px solid rgb(255, 229, 82);
+    background-color: rgb(255, 229, 82);
+}

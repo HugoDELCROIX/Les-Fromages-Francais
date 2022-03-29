@@ -5,12 +5,11 @@
     object-position: center;
 }
 
-button{
+.card-btn{
     border: solid 5px#fff ;
-    padding: 0;
 }
 
-button:focus{
+.card-btn:focus{
     border: solid 5px rgb(255, 229, 82);
     transform: scale(1.05);
 }

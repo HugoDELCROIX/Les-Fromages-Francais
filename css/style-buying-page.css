@@ -1,25 +1,25 @@
-.img-fluid  {
+.buying-img{
     width: 100%;
     height: 200px;
     object-fit: cover;
     object-position: center;
 }
 
-.card-btn{
+.buying-card-btn{
     border: solid 5px#fff ;
 }
 
-.card-btn:focus{
+.buying-card-btn:focus{
     border: solid 5px rgb(255, 229, 82);
     transform: scale(1.05);
 }
 
-.btn{
+.buying-purchaseBtn{
     background-color: #fff;
     border: solid 5px rgb(255, 229, 82);
 }
 
-.btn:hover{
+.buying-purchaseBtn:hover{
     border: solid #fff 5px;
     outline: 2px solid rgb(255, 229, 82);
     background-color: rgb(255, 229, 82);

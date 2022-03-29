@@ -10,3 +10,36 @@ body{
 	background-position: center;
 	background-size: cover;
 }
+
+.giftCard-card {
+	transition: 1s;
+	height: 300px;
+}
+
+.giftCard-card-parisian {
+	background:linear-gradient(125deg, #BF953F, #fff587, #B38728, #AA771C);
+	transform: scale(1.2);
+}
+
+.giftCard-card-newbie {
+	background:linear-gradient(125deg, #534529, rgb(143, 125, 92), #957e4f, #504127);
+}
+
+.giftCard-card-expert {
+	background:linear-gradient(125deg, #a3a3a3, #fffcdf, #959595, #909090);
+}
+
+.giftCard-card:hover {
+	transform: scale(1.3);
+	animation-name: reflects;
+	animation-duration: 1s;
+}
+
+.giftCard-title {
+	color: rgb(209, 209, 209);
+	-webkit-text-stroke: 1px rgb(139, 139, 139);
+}
+
+.giftCard-text {
+	color: rgb(71, 71, 71);
+}

@@ -11,3 +11,7 @@
 .index-presentation-height{
   height: calc(100% - 100px);
 }
+
+.index-suppliers-video{
+  width: 80%; height: 375px;
+}

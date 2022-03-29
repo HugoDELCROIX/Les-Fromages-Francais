@@ -8,6 +8,10 @@ body {
 	height: 100px;
 }
 
+.text-golden{
+  color: darkgoldenrod !important;
+}
+
 .index-bg-image {
 	background-image: url('../images/home-bg.jpg');
 	background-repeat: no-repeat;

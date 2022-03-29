@@ -1,25 +1,25 @@
-.card{
+.productDetails-card-style{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #f8f7ff;
 }
 
-.card > .row{
+.productDetails-card-container{
     border: solid rgb(255, 229, 82);
 }
 
-.img-fluid  {
+.productDetails-card-img{
     border-radius: 15px;
     height: 200px;
     object-fit: cover;
     object-position: center;
 }
 
-.btn{
+.productDetails-card-btn{
     background-color: #fff;
     border: solid 5px rgb(255, 229, 82);
 }
 
-.btn:hover{
+.productDetails-card-btn:hover{
     border: solid #fff 5px;
     outline: 2px solid rgb(255, 229, 82);
     background-color: rgb(255, 229, 82);
